@@ -33,22 +33,38 @@ const LeftSection = () => {
 					</div>
 				</div>
 			</div>
-			<div className="mt-4">
-				<button className="bg-[#F0F1F3] rounded-lg text-slate-400 font-bold m-2.5 w-[3.25rem] h-[3.25rem] pl-[1.25rem]">
-					<CiVideoOn />
-				</button>
-				<button className="bg-[#F0F1F3] rounded-lg text-slate-400 font-bold m-2.5 w-[3.25rem] h-[3.25rem] pl-[1.25rem]">
-					<FaMicrophone />
-				</button>
-				<button className="bg-[#F0F1F3] rounded-lg text-slate-400 font-bold m-2.5 w-[3.25rem] h-[3.25rem] pl-[21px]">
-					<FaShareFromSquare />
-				</button>
-				<button className="bg-[#F0F1F3] rounded-lg text-slate-400 font-bold m-2.5 w-[3.25rem] h-[3.25rem] pl-[1.25rem]">
-					<IoChatbubbleEllipsesOutline />
-				</button>
-				<button className="bg-[#F0F1F3] rounded-lg text-slate-400 font-bold m-2.5 w-[3.25rem] h-[3.25rem] pl-[1.25rem]">
-					<IoExitOutline />
-				</button>
+			<div className="grid grid-cols-3 mt-4">
+				<div className="text-center">
+					<button className="bg-[#F0F1F3] rounded-lg text-slate-400 font-bold w-[3.25rem] h-[3.25rem] pl-[1.25rem]">
+						<CiVideoOn />
+					</button>
+					Cam
+				</div>
+				<div className="text-center">
+					<button className="bg-[#F0F1F3] rounded-lg text-slate-400 font-bold w-[3.25rem] h-[3.25rem] pl-[1.25rem]">
+						<FaMicrophone />
+					</button>
+					<br />
+					Mic
+				</div>
+				<div className="text-center">
+					<button className="bg-[#F0F1F3] rounded-lg text-slate-400 font-bold w-[3.25rem] h-[3.25rem] pl-[21px]">
+						<FaShareFromSquare />
+					</button>
+					Share
+				</div>
+				<div className="text-center">
+					<button className="bg-[#F0F1F3] rounded-lg text-slate-400 font-bold w-[3.25rem] h-[3.25rem] pl-[1.25rem]">
+						<IoChatbubbleEllipsesOutline />
+					</button>
+					Chat
+				</div>
+				<div className="text-center">
+					<button className="bg-[#2E8B57] rounded-lg text-slate-400 font-bold w-[3.25rem] h-[3.25rem] pl-[1.25rem]">
+						<IoExitOutline />
+					</button>
+					Leave
+				</div>
 			</div>
 		</div>
 	);

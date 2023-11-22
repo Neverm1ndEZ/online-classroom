@@ -14,4 +14,4 @@ Despite this limitation, I have concurrently developed an alternative project,
 the details of which can be accessed through the provided link. Your
 consideration of the supplementary project is greatly appreciated.
 
-[Link to Supplementary Project](insert_link_here)
+[Link to Supplementary Project](https://github.com/Neverm1ndEZ/rtc-vc)
